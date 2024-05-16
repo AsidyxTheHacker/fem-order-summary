@@ -35,8 +35,9 @@
 
 a {
     font-family: 'Red Hat Display Black';
-    color: rgb(72, 0, 216);
+    color: rgb(18, 0, 216);
     transition: .2s ease;
+    font-size: 14px;
 }
 
 a:active {
