@@ -1,11 +1,12 @@
 import './App.css';
+import Modal from './Components/Modal/Modal.jsx'
 
 function App() {
 
   return (
     <>
-      <div>
-        
+      <div className='container'>
+        <Modal />
       </div>
     </>
   );

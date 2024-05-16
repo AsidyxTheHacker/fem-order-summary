@@ -1,0 +1,29 @@
+.summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    cursor: default;
+}
+
+.summary-title {
+   font-family: 'Red Hat Display Black';
+   color: hsl(223, 47%, 23%);
+}
+
+.summary-body {
+    color: hsl(224, 23%, 55%);
+    width: 310px;
+    font-weight: 600;
+    letter-spacing: .2px;
+    line-height: 170%;
+    padding: 0 2em;
+    margin: 0 0 1em 0;
+}
+
+@font-face {
+    font-family: 'Red Hat Display Black';
+    src: url('/public/RedHatDisplay-Black.ttf');
+}

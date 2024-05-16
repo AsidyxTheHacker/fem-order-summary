@@ -1,0 +1,44 @@
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 300px;
+    padding: 1em;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Red Hat Display Black';
+    padding: 1em;
+    border-radius: 10px;
+    font-size: 16px;
+    letter-spacing: .3px;
+    transition: .2s ease;
+}
+
+.proceed-btn {
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: hsla(223, 45%, 38%, 0.29) 0 8px 10px;
+}
+
+.proceed-btn:active {
+    background-color: hsl(245, 54%, 64%);
+}
+
+.cancel-btn {
+    color: hsl(224, 23%, 55%);
+    background-color: white;
+}
+
+.cancel-btn:active {
+    color: hsl(223, 47%, 23%);
+}
+
+@media (max-width: 375px) {
+    .button-container {
+        max-width: 250px;
+    }
+}
